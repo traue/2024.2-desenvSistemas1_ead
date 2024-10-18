@@ -1,0 +1,52 @@
+Digamos que vocês foram contratados para desenvolver um App completo de anotações
+
+Analisar o contexto (fase de análise) -> Elencar tudo que deve ou não ser implementado neste projeto
+ -> Levantamento de requisitos
+   -> Entrevistar usuários / partes interessadas
+ -> Histórias de usuários
+   -> Baseadas nos requisitos
+ -> Diagrama de Casos de Uso
+   -> 
+ -> Diagrama de Domínio... classes...
+ -> Diagrama de sequencia
+
+
+Requisitos funcionais elencados:
+
+  Precisamos construir um app de anotações
+  1. O App precisa permitir que os usuários criem e editem notas textuais
+  2. O App deve permitir que o usuários anexe fotos e vídeos a suas anotações
+  3. O App deve permitir que usuários protejam suas anotações com senhas
+  4. O App precisa prover a opção de sincronização automática com um serviço de cloud para     prevenir perda de dados
+  5. O App deverá prover um serviço de assinaturas, com planos distintos para uso
+
+
+Requisitos não funcionais:
+ 1. O App deve ser fácil de usar e intuitivo
+ 2. O App deve permitir um alto número de anotações sem travar
+ 3. O App deve operar seguramente em diversas plataformas e sistemas operacionais
+ 
+
+
+
+HISTÓRIAS DE USUÁRIOS
+
+1. Criação e edição de anotações
+ - Como anotador eu quero criar e editar notas para que eu guardar meus pensamentos, tarefas etc.
+ - Como anotador eu quero poder anexar fotos e vídeos para que eu registre melhor algumas memórias
+ - Como anotador eu quero adicionar esboços manuscritos para que eu tenha mais liberdade de anotações
+ - Como anotador eu quero poder selecionar o plano mais adequado às minhas necessidades para ter sempre um sistema disponível de anotações
+
+2. Privacidade
+ - Como anotador eu gostaria de poder proteger minhas anotações com senhas para que nenhuma pessoa não autorizada as acesse
+
+
+3. Sincronização com serviço de cloud
+ - Como anotador quero que minhas notas sejam enviadas automaticamente a algum serviço de cloud para que eu não perca acidentalmente nenhuma anotação
+ - Como anotador quero que minhas anotações estejam sincronizadas na nuvem para que eu acesse os dados sempre atualizados em qualquer dispositivo
+
+
+Fizemos o DCU - ✅
+Próximos passos: 
+ - Diagrama de classes
+ - Diagrama de sequencia de mensagens (baseado nas classes)
